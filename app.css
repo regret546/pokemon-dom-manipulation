@@ -1,3 +1,18 @@
+body {
+  padding: 2rem;
+  box-sizing: border-box;
+}
 div {
   display: inline-block;
+}
+
+.pokemon-allignment {
+  text-align: center;
+  img {
+    display: block;
+  }
+}
+
+.border {
+  border: 2px solid #333333;
 }

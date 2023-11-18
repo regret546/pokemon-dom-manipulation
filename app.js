@@ -5,6 +5,8 @@ const baseURL =
 for (let i = 1; i <= 151; i++) {
   const pokemon = document.createElement("div");
   container.appendChild(pokemon);
+  pokemon.classList.add("pokemon-allignment");
+  pokemon.classList.add("border");
   const img = document.createElement("img");
   img.src = `${baseURL}${i}.png`;
   pokemon.appendChild(img);
